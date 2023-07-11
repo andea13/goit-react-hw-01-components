@@ -1,7 +1,9 @@
 import user from '../data/user';
+import data from '../data/data';
 import { Profile } from './Profile/Profile';
+import { Statistics } from './Statistics/Statistics';
 
-console.log(user);
+console.log(data);
 
 export const App = () => {
   return (
@@ -15,13 +17,16 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      <Profile
-        username={user.username}
-        tag={user.tag}
-        location={user.location}
-        avatar={user.avatar}
-        stats={user.stats}
-      />
+      <>
+        <Profile
+          username={user.username}
+          tag={user.tag}
+          location={user.location}
+          avatar={user.avatar}
+          stats={user.stats}
+        />
+        <Statistics title="Upload stats" stats={data} />
+      </>
     </div>
   );
 };
