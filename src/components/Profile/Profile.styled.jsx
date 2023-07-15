@@ -26,8 +26,8 @@ export const AvatarIcon = styled.img`
 `;
 
 export const Username = styled.p`
-  font-size: 60px;
-  font-weight: 700px;
+  font-size: 50px;
+  font-weight: 700;
   border-radius: 50%;
   text-align: center;
   color: #000;
@@ -74,6 +74,6 @@ export const Label = styled.span`
 
 export const Quantity = styled.span`
   font-size: 30px;
-  font-weight: 700px;
+  font-weight: 700;
   color: #000;
 `;
