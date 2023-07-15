@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const FriendsListItem = styled.li`
+export const FriendsListStyledItem = styled.li`
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -16,7 +16,7 @@ export const FriendsListItem = styled.li`
 export const Status = styled.span`
   width: 30px;
   height: 30px;
-  background-color: red;
+  background-color: ${props => (props.isOnline ? 'green' : 'red')};
   border-radius: 50%;
 `;
 

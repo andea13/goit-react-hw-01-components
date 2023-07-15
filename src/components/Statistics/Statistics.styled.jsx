@@ -29,23 +29,23 @@ export const StatItem = styled.li`
   justify-content: space-evenly;
   align-items: center;
 
-  &:first-child {
+  &:first-of-type {
     background-color: #28f2f4;
   }
 
-  &:nth-child(2) {
+  &:nth-of-type(2) {
     background-color: #d878e4;
   }
 
-  &:nth-child(3) {
+  &:nth-of-type(3) {
     background-color: #fb7c8d;
   }
 
-  &:nth-child(4) {
+  &:nth-of-type(4) {
     background-color: #19eac7;
   }
 
-  &:nth-child(5) {
+  &:nth-of-type(5) {
     background-color: #f9ba7c;
   }
 `;
